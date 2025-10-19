@@ -163,7 +163,7 @@ const Index = () => {
       <div className="relative z-10">
         {/* Hero Section */}
         <motion.section
-          className="text-center py-20 px-4"
+          className="text-center py-24 px-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -173,11 +173,11 @@ const Index = () => {
             animate={{ scale: [1, 1.05, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            <Sparkles className="w-16 h-16 mx-auto text-primary drop-shadow-[0_0_15px_rgba(0,255,183,0.8)]" />
+            <Sparkles className="w-20 h-20 mx-auto text-primary drop-shadow-[0_0_20px_rgba(96,165,250,0.8)]" />
           </motion.div>
           
           <motion.h1
-            className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-highlight to-secondary bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(0,255,183,0.5)]"
+            className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-primary via-highlight to-secondary bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(96,165,250,0.6)]"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
@@ -186,12 +186,23 @@ const Index = () => {
           </motion.h1>
           
           <motion.p
-            className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8"
+            className="text-xl md:text-3xl text-foreground/90 max-w-3xl mx-auto mb-4 font-medium"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            Turn your images and text into stunning AI videos in seconds.
+            Transform Your Vision Into Reality
+          </motion.p>
+          
+          <motion.p
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 0.8 }}
+          >
+            Upload an image, add your text, and let AI create stunning videos in seconds. 
+            <br className="hidden md:block" />
+            No editing skills required—just pure creative magic.
           </motion.p>
         </motion.section>
 

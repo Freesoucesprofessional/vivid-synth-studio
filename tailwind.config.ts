@@ -55,9 +55,9 @@ export default {
         'gradient-primary': 'linear-gradient(135deg, hsl(var(--gradient-start)), hsl(var(--gradient-end)))',
       },
       boxShadow: {
-        'glow-primary': '0 0 30px hsl(162 100% 50% / 0.5)',
-        'glow-secondary': '0 0 30px hsl(200 100% 50% / 0.5)',
-        'glow-strong': '0 0 50px hsl(162 100% 50% / 0.8)',
+        'glow-primary': '0 0 30px hsl(217 91% 60% / 0.5)',
+        'glow-secondary': '0 0 30px hsl(212 100% 48% / 0.5)',
+        'glow-strong': '0 0 50px hsl(217 91% 60% / 0.8)',
       },
       borderRadius: {
         lg: "var(--radius)",
